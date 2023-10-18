@@ -30,4 +30,11 @@ console.log(x);
 // 6.  Define a function hello that returns 'Hello world!'
 function hello() {
     return 'Hello world!';
-}
+};
+// 7. Define two functions. The first function a should return 'Hello a!' and the second function b should return 'Hello b!'.
+function firstFunction() {
+    return 'Hello a!';
+};
+function secondFunction() {
+    return 'Hello b!';
+};
