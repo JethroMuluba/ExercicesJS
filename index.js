@@ -26,3 +26,8 @@ y = x;
 x = z;
 console.log(x);
 // after execution of this code x will have 'Hardy' like value
+
+// 6.  Define a function hello that returns 'Hello world!'
+function hello() {
+    return 'Hello world!';
+}
