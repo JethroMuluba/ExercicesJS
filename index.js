@@ -66,9 +66,9 @@
 
 // Second part of JavaScript exercice
 // Number 1
-// let a = 0, 
-//     b = 1, 
-//     c = '1';
+let a = 0, 
+    b = 1, 
+    c = '1';
 
 // Que vaut (a === 0); R/ true         
 // Que vaut (a === 1); R/ false
@@ -81,9 +81,9 @@
 // Que vaut (a < b);  R/ true
 // Que vaut (a >= b);  R/ false
 // Que vaut (a !== b); R/ true
-// Que vaut (a === 0 && (b === 1 || b === 2)) R/ false
-// Que vaut (a === 0 && true) R/ false
-
+// Que vaut (a === 0 && (b === 1 || b === 2)) R/ true
+// Que vaut (a === 0 && true) R/ true
+console.log(a === 0 && true);
 // Number 2.  
  	
 // Ecrivez une fonction qui prend 3 paramètres (mots).
@@ -91,8 +91,8 @@
 // Concaténez les trois variables et vérifiez si sa taille est 
 // suppérieure à 100 alors affichez "C'est une grande phrase" 
 // sinon affichez "C'est une petite phrase".
-function phrase(mot1, mot2, mot3){
-    const concatPhrase = mot1 + ' ' + mot2 + ' ' + mot3;
+function checkSizeOfPhrase(firstWord, secondWord, third){
+    const concatPhrase = firstWord + secondWord + third;
     if(concatPhrase.length > 100){
         console.log("C'est une grande phrase");
     }else{
