@@ -91,15 +91,15 @@ let a = 0,
 // Concaténez les trois variables et vérifiez si sa taille est 
 // suppérieure à 100 alors affichez "C'est une grande phrase" 
 // sinon affichez "C'est une petite phrase".
-// function checkSizeOfPhrase(firstWord, secondWord, third){
-//     const concatPhrase = firstWord + secondWord + third;
-//     if(concatPhrase.length > 100){
-//         console.log("C'est une grande phrase");
-//     }else{
-//         console.log("C'est une petite phrase");
-//     }
-// };
-// checkSizeOfPhrase('Jethro muluba', 'est un', 'développeur full-Stack');
+function checkSizeOfPhrase(firstWord, secondWord, third){
+    const concatPhrase = firstWord + secondWord + third;
+    if(concatPhrase.length > 100){
+        console.log("C'est une grande phrase");
+    }else{
+        console.log("C'est une petite phrase");
+    }
+};
+checkSizeOfPhrase('Jethro muluba', 'est un', 'développeur full-Stack');
 
  
  // Number 3	
@@ -112,3 +112,12 @@ let a = 0,
 const misteryNumber = 0;
 const myNumber = 0;
 myNumber === misteryNumber ? console.log('Congratulations !') : myNumber < misteryNumber ? console.log('+') : console.log('-');
+
+// Number 4
+// Créer une fonction `findLargest()` trouve le plus grand des trois nombres.
+function findLargest() {
+    const nums = [5, 8, 9];
+    const largestNum = Math.max(...nums);
+    console.log(largestNum);
+}
+findLargest();
