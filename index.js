@@ -66,9 +66,9 @@
 
 // Second part of JavaScript exercice
 // Number 1
-let a = 0, 
-    b = 1, 
-    c = '1';
+// let a = 0, 
+//     b = 1, 
+//     c = '1';
 
 // Que vaut (a === 0); R/ true         
 // Que vaut (a === 1); R/ false
@@ -121,3 +121,17 @@ function findLargest() {
     console.log(largestNum);
 }
 findLargest();
+
+// Number 5
+// Créer un fonction qui Vérifie si un triangle est équilatéral, scalène ou isocèle
+// La fonction `findTriangleType()` permet de trouver le type de triangle pour des valeurs de côté données.
+function findTriangleType(sideA, sideB, sideC){
+    if (sideA === sideB && sideB === sideC) {
+         console.log('le triangle est équilatéral')
+        } else if(sideA !== sideB && sideB !== sideC && sideA !== sideC) {
+            console.log('le triangle est scalène')
+        } else {
+            console.log('le triangle est isocèle')
+        }
+};
+findTriangleType(170, 170, 170);
