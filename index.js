@@ -83,20 +83,32 @@ let a = 0,
 // Que vaut (a !== b); R/ true
 // Que vaut (a === 0 && (b === 1 || b === 2)) R/ true
 // Que vaut (a === 0 && true) R/ true
-console.log(a === 0 && true);
-// Number 2.  
- 	
+// console.log(a === 0 && true);
+
+// Number 2.  	
 // Ecrivez une fonction qui prend 3 paramètres (mots).
 
 // Concaténez les trois variables et vérifiez si sa taille est 
 // suppérieure à 100 alors affichez "C'est une grande phrase" 
 // sinon affichez "C'est une petite phrase".
-function checkSizeOfPhrase(firstWord, secondWord, third){
-    const concatPhrase = firstWord + secondWord + third;
-    if(concatPhrase.length > 100){
-        console.log("C'est une grande phrase");
-    }else{
-        console.log("C'est une petite phrase");
-    }
-};
-checkSizeOfPhrase('Jethro muluba', 'est un', 'développeur full-Stack');
+// function checkSizeOfPhrase(firstWord, secondWord, third){
+//     const concatPhrase = firstWord + secondWord + third;
+//     if(concatPhrase.length > 100){
+//         console.log("C'est une grande phrase");
+//     }else{
+//         console.log("C'est une petite phrase");
+//     }
+// };
+// checkSizeOfPhrase('Jethro muluba', 'est un', 'développeur full-Stack');
+
+ 
+ // Number 3	
+// Déclarer et définir 2 variables misteryNumber et myNumber de type number.
+// En utilisant uniquement l'opérateur ternaire, on affiche :
+// Si les 2 nombres sont égaux Congratulations !
+// Sinon
+// Si le nombre myNumber est inférieur au nombre misteryNumber, on affiche +
+// Sinon on affiche -
+const misteryNumber = 0;
+const myNumber = 0;
+myNumber === misteryNumber ? console.log('Congratulations !') : myNumber < misteryNumber ? console.log('+') : console.log('-');
