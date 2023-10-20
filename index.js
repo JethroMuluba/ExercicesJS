@@ -135,3 +135,28 @@ function findTriangleType(sideA, sideB, sideC){
         }
 };
 findTriangleType(170, 170, 170);
+
+
+// Number 6
+// Créer une fonction `evalNumbers()` imprime le résultat après avoir évalué les opérations arithmétiques entre deux nombres 
+// de l'addition, de la multiplication, de la division, et du module en JavaScript.
+
+// Imprimer le résultat de num1+num2 si l'opération est "add" (addition)
+
+// Imprimer le résultat de num1-num2 si l'opération est "subtract" (soustraire)
+
+// Imprimer le résultat de num1*num2 si l'opération est "multiplier".
+
+// Imprimer le résultat de num1/num2 si l'opération est "diviser".
+
+// Imprimer le résultat de num1%num2 si l'opération est "modulus".
+
+// Sinon, imprimer "Opération non valide".
+function evalNumbers(num1, num2){
+    const operationTable = ['add', 'subtract', 'multiplier', 'diviser', 'modulus']
+    for(let i=0;i<operationTable.length;i++){
+        
+    }
+
+};
+
