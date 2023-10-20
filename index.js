@@ -99,4 +99,4 @@ function checkSizeOfPhrase(firstWord, secondWord, third){
         console.log("C'est une petite phrase");
     }
 };
-phrase('Jethro muluba', 'est un', 'développeur full-Stack');
+checkSizeOfPhrase('Jethro muluba', 'est un', 'développeur full-Stack');
