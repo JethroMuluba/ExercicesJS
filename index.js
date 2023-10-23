@@ -194,4 +194,34 @@ function checkLeapYear(inputYear) {
     }
 
 };
-checkLeapYear(2100);
+checkLeapYear(2011);
+
+// Numéro 8 
+// La fonction `findDaysInMonth()` trouve le nombre de jours dans un mois donné d'une année.
+
+// Si le mois n'est pas compris entre 1 et 12, elle imprime "Invalid month".
+
+// Si le mois est égal à 2, c'est-à-dire février, il faut imprimer "29 jours" si l'année est bissextile,
+// sinon il faut imprimer "28 jours".
+
+// Si le mois est égal à 4, 6, 9 ou 11, imprimer "30 jours".
+
+// Sinon, imprimer "31 jours".
+function findDaysInMonth (inputMonth, inputYear) {
+if (inputMonth < 1 || inputMonth > 12) {
+    console.log("Invalid month")
+}else if(inputMonth === 2) {
+    if (inputYear % 4 === 0  &&  inputYear % 100 !== 0) {
+        console.log("29 jours")
+    }else if(inputYear % 400 === 0){
+        console.log("29 jours")
+    }else{
+        console.log("28 jours")
+    };
+} else if(inputMonth === 4 || inputMonth === 6 || inputMonth === 9 || inputMonth === 11 ) {
+    console.log("30 jours")
+}else{
+    console.log("31 jours")
+}
+};
+findDaysInMonth (12,2004)
