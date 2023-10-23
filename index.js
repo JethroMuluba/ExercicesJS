@@ -174,6 +174,24 @@ function evalNumbers(num1, num2, operation){
                 console.log("Opération non valide");
     };
 };
+evalNumbers(30, 70, "multiplier");
 
-evalNumbers(30, 70, "modulus")
+// Number 7
+// Créer la fonction `checkLeapYear()` pour savoir si l'année donnée est une année bissextile
 
+// Si l'année est divisible par 4 et non divisible par 100, on imprime "année bissextile".
+
+// Ou si l'année est divisible par 400, imprimer "année bissextile".
+
+// Sinon, imprimer "pas une année bissextile".
+function checkLeapYear(inputYear) {
+    if (inputYear % 4 === 0  &&  inputYear % 100 !== 0) {
+        console.log("Leap year")
+    }else if(inputYear % 400 === 0){
+        console.log("Leap year")
+    }else{
+        console.log("Not a leap year")
+    }
+
+};
+checkLeapYear(2100);
