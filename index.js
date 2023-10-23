@@ -152,11 +152,28 @@ findTriangleType(170, 170, 170);
 // Imprimer le résultat de num1%num2 si l'opération est "modulus".
 
 // Sinon, imprimer "Opération non valide".
-function evalNumbers(num1, num2){
-    const operationTable = ['add', 'subtract', 'multiplier', 'diviser', 'modulus']
-    for(let i=0;i<operationTable.length;i++){
-        
-    }
+function evalNumbers(num1, num2, operation){
 
+        switch (operation) {
+            case "add" :
+                console.log(num1 + num2);
+                break;
+            case "subtract" : 
+                console.log(num1 - num2);
+                break;
+            case "multiplier" :
+                console.log(num1 * num2);
+                break;
+            case "diviser" : 
+                console.log(num1 / num2);
+                break;
+            case "modulus" :
+                console.log(num1 % num2);
+                break;
+            default :
+                console.log("Opération non valide");
+    };
 };
+
+evalNumbers(30, 70, "modulus")
 
