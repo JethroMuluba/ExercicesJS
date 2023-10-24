@@ -236,3 +236,11 @@ function checkArrayInput(input){
    return Array.isArray(input);
 };
 console.log(checkArrayInput([1, 2, 3]));
+
+// Number 2
+// Écrivez une fonction JavaScript pour obtenir le premier élément d'un tableau. 
+// En passant le paramètre "n", la fonction renverra les "n" premiers éléments du tableau.
+function getFirstElementsOfAnArray(n){
+    return n[0]
+}
+console.log(getFirstElementsOfAnArray([23, 34, 56]));
