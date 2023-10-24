@@ -240,7 +240,15 @@ console.log(checkArrayInput([1, 2, 3]));
 // Number 2
 // Écrivez une fonction JavaScript pour obtenir le premier élément d'un tableau. 
 // En passant le paramètre "n", la fonction renverra les "n" premiers éléments du tableau.
-function getFirstElementsOfAnArray(n){
+function getFirstElementOfAnArray(n){
     return n[0]
 }
-console.log(getFirstElementsOfAnArray([23, 34, 56]));
+console.log(getFirstElementOfAnArray([23, 34, 56]));
+
+// Number 3
+// Écrivez une fonction JavaScript pour obtenir le dernier élément d'un tableau. 
+// En passant le paramètre "n", la fonction renverra les "n" derniers éléments du tableau.
+function getLastElementOfAnArray(n){
+    return n[n.length -1]
+}
+console.log(getLastElementOfAnArray([23, 34, 56, 78]));
