@@ -252,3 +252,11 @@ function getLastElementOfAnArray(n){
     return n[n.length -1]
 }
 console.log(getLastElementOfAnArray([23, 34, 56, 78]));
+
+// Number 4
+// Écrivez un programme JavaScript simple pour réunir tous les éléments du tableau suivant en une chaîne de caractères.
+// Exemple de tableau : myColor = ["Red", "Green", "White", "Black"] ;
+// Résultat attendu :
+// "Rouge,Vert,Blanc,Noir"
+const myColor = ["Red", "Green", "White", "Black"];
+console.log(myColor.join(","));
