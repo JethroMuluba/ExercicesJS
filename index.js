@@ -1,3 +1,5 @@
+// Part 2 Condition
+
 // 1. Declare a variable firstname and initialize it with the value 'Lata'.
 // const firstName = 'Lata';
  	
@@ -224,4 +226,13 @@ if (inputMonth < 1 || inputMonth > 12) {
     console.log("31 jours")
 }
 };
-findDaysInMonth (12,2004)
+findDaysInMonth (2,2004)
+
+// Part 3 Array
+
+// Number 1 
+// Ecrivez une fonction JavaScript pour vérifier si une "entrée" est un tableau ou non.
+function checkArrayInput(input){
+   return Array.isArray(input);
+};
+console.log(checkArrayInput([1, 2, 3]));
