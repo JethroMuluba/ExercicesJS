@@ -240,18 +240,20 @@ console.log(checkArrayInput([1, 2, 3]));
 // Number 2
 // Écrivez une fonction JavaScript pour obtenir le premier élément d'un tableau. 
 // En passant le paramètre "n", la fonction renverra les "n" premiers éléments du tableau.
-function getFirstElementOfAnArray(n){
-    return n[0]
-}
-console.log(getFirstElementOfAnArray([23, 34, 56]));
+function getFirstElementOfAnArray(userArray1, n){
+    return userArray1[n];
+    for( i = 0; i <= n; i++);
+};
+console.log(getFirstElementOfAnArray([23, 34, 56, 78], 3));
 
 // Number 3
 // Écrivez une fonction JavaScript pour obtenir le dernier élément d'un tableau. 
 // En passant le paramètre "n", la fonction renverra les "n" derniers éléments du tableau.
-function getLastElementOfAnArray(n){
-    return n[n.length -1]
-}
-console.log(getLastElementOfAnArray([23, 34, 56, 78]));
+// function getLastElementOfAnArray(userArray2, n){
+//     return userArray2[n.length -1];
+//     for( i = 0; i <= n; i--);
+// }
+// console.log(getLastElementOfAnArray([23, 34, 56, 78]));
 
 // Number 4
 // Écrivez un programme JavaScript simple pour réunir tous les éléments du tableau suivant en une chaîne de caractères.
@@ -260,3 +262,22 @@ console.log(getLastElementOfAnArray([23, 34, 56, 78]));
 // "Rouge,Vert,Blanc,Noir"
 const myColor = ["Red", "Green", "White", "Black"];
 console.log(myColor.join(","));
+
+
+// Part 4 Objet
+
+// Écrivez un programme JavaScript pour supprimer la propriété rollno de l'objet suivant. 
+// Imprimez également l'objet avant ou après la suppression de la propriété.
+
+// Exemple d'objet :
+// var student = {
+// name : "David Rayy",
+// sclass : "VI",
+// rollno : 12 } ;
+var student = {
+    name: "David Rayy",
+    class: "VI",
+    rollno : 12
+};
+delete student.rollno;
+console.log(student.toString);
