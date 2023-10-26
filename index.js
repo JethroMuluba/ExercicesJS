@@ -280,4 +280,20 @@ var student = {
     rollno : 12
 };
 delete student.rollno;
-console.log(student.toString);
+console.log(student);
+
+// Créez un objet qui décrit certains de vos attributs physiques ou mentaux.
+// Ajoutez une autre propriété à l'objet. Montrez à nouveau l'objet complet.
+// Supprimez l'attribut le moins important. Montrez à nouveau l'objet complet.
+
+let myAttributs = {
+    'Full name' : "Madimuanga Jethro Muluba",
+    Age : 26,
+    Gender : "Male",
+    Nationality : "Congolease",
+    'Skin color' : "Brown",
+};
+myAttributs["Hair"] = "Dark";
+delete myAttributs['Skin color'];
+
+console.log(myAttributs);
