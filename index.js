@@ -266,6 +266,7 @@ console.log(myColor.join(","));
 
 // Part 4 Objet
 
+// Number 1
 // Écrivez un programme JavaScript pour supprimer la propriété rollno de l'objet suivant. 
 // Imprimez également l'objet avant ou après la suppression de la propriété.
 
@@ -282,11 +283,12 @@ var student = {
 delete student.rollno;
 console.log(student);
 
+// Number 2
 // Créez un objet qui décrit certains de vos attributs physiques ou mentaux.
 // Ajoutez une autre propriété à l'objet. Montrez à nouveau l'objet complet.
 // Supprimez l'attribut le moins important. Montrez à nouveau l'objet complet.
 
-let myAttributs = {
+const myAttributs = {
     'Full name' : "Madimuanga Jethro Muluba",
     Age : 26,
     Gender : "Male",
@@ -297,3 +299,12 @@ myAttributs["Hair"] = "Dark";
 delete myAttributs['Skin color'];
 
 console.log(myAttributs);
+
+// Number 3
+ 
+// Créez deux objets shoe_1 et shoe_2 qui caractérisent des chaussures.
+// Utilisez la notation littérale.
+// Créez deux autres objets, shirt_1 et shirt_2, qui caractérisent les chemises.
+// Créez d'abord des objets vides. Ensuite, ajoutez des attributs aux objets.
+// Créez un objet entrepôt et ajoutez-y les 4 objets.
+// Affichez le prix du quatrième produit dans l'objet entrepôt.
